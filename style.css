@@ -1,0 +1,21 @@
+.sub_btn {
+    background-color: rgb(190, 28, 28);
+    color: white;
+    width: 105px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+
+    transition: opacity 0.3s, width 0.3s, height 0.3s, box-shadow 0.3s;
+}
+.sub_btn:hover {
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.12);
+}
+.sub_btn:active {
+    opacity: 0.5;
+    width: 110px;
+    height: 40px;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.15);
+}
