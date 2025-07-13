@@ -1,21 +1,50 @@
 .sub_btn {
     background-color: rgb(190, 28, 28);
     color: white;
-    width: 105px;
-    height: 36px;
+    /*width: 105px; -> Wrong way to do it.
+    height: 36px; NOT IN CONTROL OF OVERFLOW*/
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border: none;
     border-radius: 2px;
     cursor: pointer;
     font-weight: bold;
+    margin-right: 15px;
+    vertical-align: top;
 
-    transition: opacity 0.3s, width 0.3s, height 0.3s, box-shadow 0.3s;
+    transition: opacity 0.3s, padding 0.3s, box-shadow 0.3s, margin 0.3s;
 }
 .sub_btn:hover {
-    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 7px 7px 10px rgba(255, 0, 0, 0.15);
 }
 .sub_btn:active {
     opacity: 0.5;
-    width: 110px;
+    padding-left: 18px;
+    padding-right: 18px;
     height: 40px;
-    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 9px 9px 10px rgba(97, 97, 97, 0.17);
+}
+.cart_btn {
+    background-color: gold;
+    height: 36px;
+    width: 180px;
+    border: none;
+    border-radius: 18px;
+    margin-right: 10px;
+    font-size: 14px;
+    vertical-align: top;
+
+    transition: all 0.3s;
+}
+.cart_btn:hover {
+    background-color: rgb(215, 183, 0);
+    cursor: pointer;
+    box-shadow: 9px 9px 10px rgba(255, 166, 0, 0.17);;
+}
+.cart_btn:active {
+    height: 40px;
+    width: 200px;
+    opacity: 0.6;
 }
