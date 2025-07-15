@@ -26,6 +26,7 @@
     height: 40px;
     box-shadow: 9px 9px 10px rgba(97, 97, 97, 0.17);
 }
+
 .cart_btn {
     background-color: gold;
     height: 36px;
@@ -47,4 +48,31 @@
     height: 40px;
     width: 200px;
     opacity: 0.6;
+}
+
+.join_btn {
+    background-color: white;
+    color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(6, 95, 212);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+    font-size: 14px;
+
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+}
+.join_btn:hover {
+    background-color: rgb(6, 95, 212);
+    color: white;
+    cursor: pointer;
+}
+.join_btn:active {
+    opacity: 0.7;
 }
