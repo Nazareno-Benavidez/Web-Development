@@ -15,6 +15,11 @@
         Shoutout to Sundar!</p>
 </body>
   <style>
+    /* CSS specificity is a set of rules that determines which style is applied to an element when multiple styles 
+    could apply. It assigns weights to different selectors, with inline styles having the highest priority, followed by IDs, 
+    classes, and then element selectors. */
+    /* That's why the video-title (for instance) doesn't have a margin bottom of 0px, because the 5px is more specific, as it is in
+    .video-title (class), than the 0px assigned in p (element). */
         p {
             font-family: Arial;
             margin-top: 0px;
